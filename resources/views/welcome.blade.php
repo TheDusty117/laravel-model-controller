@@ -11,7 +11,7 @@
 
         @forelse ($movies as $movie)
         <div class="card my-4" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="../images/logo_film.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Titolo Ita: {{ $movie->title }}</h5>
               <h5 class="card-title">Titolo Originale: <br>{{ $movie->original_title }}</h5>
