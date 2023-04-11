@@ -1,5 +1,6 @@
 <?php
-
+//AGGIUNGI QUESTO
+use App\Http\Controllers\Guest\PageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+//AGGIUNGI QUESTO
+Route::get('/', [Pagecontroller::class, 'homepage']);
