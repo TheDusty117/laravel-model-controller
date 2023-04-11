@@ -7,7 +7,7 @@
 
 <section class="content-section">
     <div class="container">
-        <h3>contenutoooss</h3>
+        <h3>questo e' il contenuto</h3>
     </div>
 </section>
 
